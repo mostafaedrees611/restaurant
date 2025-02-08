@@ -25,7 +25,7 @@ const Navber =()=>{
         <div>
             <header className="header">
                 <a href="#" className="logo">
-                    <img src={logo}/>
+                    <img src={logo} alt=""/>
                 </a>
                 <nav className="navbar" ref={navRef}>
                     <a href="#"className="option">Home</a>
@@ -49,7 +49,7 @@ const Navber =()=>{
                     {cart.map((item, index)=>(
                         <div className="cart-item" key={index}>
                             <span className="fas fa-times"></span>
-                            <img src={item.img}/>
+                            <img src={item.img} alt=""/>
                             <div className="content">
                                 <h3>cart item 01</h3>
                                 <div className="price">$15.99/-</div>

@@ -11,7 +11,7 @@ const Home =()=>{
                     Placeat
                     Labore, Sint consectetur adipiscing Tempora Labore.
                     </p>
-                    <a className="btn" href="#">get yours now</a>
+                    <a className="btn" href="#btn">get yours now</a>
                 </div>
             </section>
         </Fragment>

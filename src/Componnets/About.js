@@ -7,7 +7,7 @@ const About =()=>{
                 <h1><span>ABOUT</span> US</h1>
                 <div className="row">
                     <div className="image">
-                        <img src={aboutImag}/>
+                        <img src={aboutImag} alt=""/>
                     </div>
                     <div className="content">
                     <h3>what makes our food special?</h3>

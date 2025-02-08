@@ -10,14 +10,14 @@ const Review =()=>{
                     {
                         review.map((item, index)=>(
                             <div className="box">
-                                <img src={qoutImage}/>
+                                <img src={qoutImage} alt=""/>
                                 <p>
                                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
                                      nulla sit libero nemo fuga sequi nobis? Necessitatibus aut
                                      laborum, nisi quas eaque laudantium consequuntur iste ex aliquam
                                      minus vel? Nemo.
                                 </p>
-                                <img src={item.img} className="user"/>
+                                <img src={item.img} alt="" className="user"/>
                                 <h3>Mostafa Edrees</h3>
                                 <div className="stars">
                                      <i className="fas fa-star"></i>

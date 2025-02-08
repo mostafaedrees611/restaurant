@@ -1,4 +1,4 @@
-import react, { Fragment } from 'react';
+import { Fragment } from 'react';
 import { product } from '../Data';
 const Product =()=>{
     return(
@@ -15,7 +15,7 @@ const Product =()=>{
                                 <a href='#' className='fas fa-eye'></a>
                             </div>
                             <div className='image'>
-                                <img src={item.img}/>
+                                <img src={item.img} alt=''/>
                             </div>
                             <div className='content'>
                                 <h3>fresh Coffee</h3>

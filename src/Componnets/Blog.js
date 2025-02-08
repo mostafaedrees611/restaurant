@@ -1,4 +1,4 @@
-import react, { Fragment } from 'react';
+import { Fragment } from 'react';
 import {blog} from '../Data';
 const Blog =()=>{
     return(
@@ -10,7 +10,7 @@ const Blog =()=>{
                         blog.map((item, index)=>(
                             <div className='box' key={index}>
                                 <div className='image'>
-                                    <img src={item.img}/>
+                                    <img src={item.img} alt=''/>
                                 </div>
                             <div class="content">
                                 <a href="#" class="title">
